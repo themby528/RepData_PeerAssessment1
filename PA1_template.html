@@ -186,24 +186,18 @@ hljs.initHighlightingOnLoad();
 <h2>Load and preprocessing the data</h2>
 
 <ol>
-<li>Load the data<br/></li>
-</ol>
+<li><p>Load the data  </p>
 
-<pre><code>* I began by loading the libraries I needed for this work, setting the data to show the full value of data not scientific notation, setting the working directory and reading the data to the &quot;rawData&quot; data frame. I used camel case on my data frames, etc to assist in readability*
+<p><em>I began by loading the libraries I needed for this work, setting the data to show the full value of data not scientific notation, setting the working directory and reading the data to the &ldquo;rawData&rdquo; data frame. I used camel case on my data frames, etc to assist in readability</em></p>
 
-
-```r
-library(knitr)
+<pre><code class="r">library(knitr)
 library(ggplot2)
 
 options(scipen = 1, digits = 3)
 
 setwd(&quot;~/Data Scientist Spec/Reproducible Research/Course Project 1&quot;)
 rawData &lt;- read.csv(&quot;activity.csv&quot;)
-```
-</code></pre>
-
-<ol>
+</code></pre></li>
 <li><p>Process/Transform the data (if necessary) into a format suitable for your analysis  </p>
 
 <p><em>I &ldquo;transformed&rdquo; the date variable in rawData to ensure it is formatted as a date variable</em></p>

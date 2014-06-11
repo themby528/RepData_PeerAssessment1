@@ -7,7 +7,7 @@ Reproducible Research - Course Project 1
 
 1. Load the data  
 
-    * I began by loading the libraries I needed for this work, setting the data to show the full value of data not scientific notation, setting the working directory and reading the data to the "rawData" data frame. I used camel case on my data frames, etc to assist in readability*
+    *I began by loading the libraries I needed for this work, setting the data to show the full value of data not scientific notation, setting the working directory and reading the data to the "rawData" data frame. I used camel case on my data frames, etc to assist in readability*
     
     ```{r LoadData}
     library(knitr)
